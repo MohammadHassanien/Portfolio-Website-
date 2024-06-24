@@ -1,0 +1,23 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+nav {
+    background-color: #444;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}    
+.menu-item {
+    /* padding: 10px; */
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+.menu-item:hover {
+    background-color: #555;
+}

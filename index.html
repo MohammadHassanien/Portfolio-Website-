@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Hassanien - Portfolio</title>
+  <link rel="shortcut icon" href="assets/images/" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets/images/IMG-20221220-WA0004 (1).jpg" alt="MhmdHassanien" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Mhmd Hassanien</h1>
+          <p class="title">Web developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:mhmd.hassanien@outlook.com" class="contact-link">mhmd.hassanien@outlook.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+96176629661" class="contact-link">+961 76 629 661</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2001-11-15">Nov 15, 2001</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bchamoun, Mount-Lebanon, LB</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/Mhmd.Hassanien.001" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/mohammad_hassanien_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a recent computer science graduate from Beirut, Lebanon with a background in store management and hands-on experience in data entry and scanning projects. I enjoy turning complex problems into simple. to create user-friendly and efficient solutions. 
+          </p>
+          <p>
+          My goal is to simplify complex processes and craft intuitive designs that enhance user experiences, whether in software development or other fields. 
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Certificates</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/Certificate of Participation.jpeg" alt="ArabiaGis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Arabia GIS - Data Entry Operator</h4>
+                
+                <div class="testimonials-text" data-testimonials-text>
+                   <p> 15 May, 2022 </p>
+                    <p> 
+                    I hold a certificate in data entry operations from Arabia GIS that calculated the results of 2022 Lebanese election. This certification signifies my ability to accurately and securely input crucial electoral data, ensuring its integrity and timely processing.
+                    </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/IMG_0176.jpg" alt="Mcdonalds" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Miknas Food "Mcdonald's" - Crew Trainer</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                    <p> 28 March, 2022 </p>
+                  <p>
+                    I hold a McDonald's Crew Trainer certificate, which signifies my ability to train and lead staff while maintaining quality and safety standards.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/IDS.jpg" alt="IDS" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Integrated Digital Systems (IDS) - Full Stack Developer</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                    <p> 30 January, 2024 </p>
+                  <p>
+                    I am certified as a full stack developer in .NET ASP Core from IDS (Integrated Digital Solutions), demonstrating my proficiency in developing web applications using the latest technologies in the Microsoft ecosystem.
+                  </p>
+                </div> 
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="assets/images/Certificate of Participation.jpeg" alt="Mcdonalds" width="80" data-modal-img>
+              </figure>
+              <img src="assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title> </h4>
+              <div data-modal-text>
+                <p>
+                    I hold a McDonald's Crew Trainer certificate, which signifies my ability to train and lead staff while maintaining quality and safety standards.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+       
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Arts, Science, and Technology university in Lebanon (AUL)</h4>
+              <span>2022 — 2023</span>
+              <p class="timeline-text">
+                I have successfully earned a Bachelor of Science degree in Computer Science (CS).
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Rafik Hariri Official High School</h4>
+              <span>2019 — 2020</span>
+              <p class="timeline-text">
+                I have successfully earned a High School Diploma in General Sciences (GS).
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full Stack Developer – Integrated Digital Systems (IDS)</h4>
+              <span>November 2023 – January 2024 </span>
+              <p class="timeline-text">
+              
+                - Build frontend webpages using HTML/CSS.</br>
+                - Adding interactions to webpages using JavaScript, AJAX, and JQuery.</br>
+                - Build up Database using SQL server 2012/2014.</br>
+                - Develop a full website using Visual studio 2019/2022, ASP.NET/MVC, C#.NET, and Entity Framework
+                Core(6.0/7.0).</br>
+                - Develop WebAPIs (.NET Core 6.0/6.0/7.0) to be used along website.</br>
+                - Collaboration and Teamwork to collaborative development practices, code reviews, and project
+                management tools.
+                
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Store Manager - AMB Group</h4>
+              <span>September 2021 — Present</span>
+              <p class="timeline-text">
+                - Led a team of employees to achieve sales targets and provide exceptional customer service. <br>
+                - Managed inventory, merchandise presentation, and ensured the store's smooth daily operations. <br>
+                - Conducted employee training and performance evaluations, fostering a positive work environment.
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Data Enter Operator - Arabia GIS</h4>
+                <span>May 2022 — May 2022</span>
+                <p class="timeline-text">
+                  -	Played a vital role in data entry and verification during the Lebanese Elections 2022.<br>
+                  -	Ensured the accuracy and integrity of election-related data.<br>
+                  -	Collaborated with team members to meet strict deadlines and maintain data security protocols.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Scanning Project Assistant – Bank Med </h4>
+                <span>January 2022 — February 2022</span>
+                <p class="timeline-text">
+                  -	Worked on a scanning project for BankMed, ensuring the digitization of important documents.<br>
+                  -	Operated scanning equipment, organized files, and maintained data confidentiality.<br>
+                  -	Demonstrated attention to detail and efficiency in a time-sensitive project.        
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Crew/Crew Trainer – Miknas Food “McDonald’s”</h4>
+                <span>July 2021 - September 2022</span>
+                <p class="timeline-text">
+                  - Led a team of employees to achieve sales targets and provide exceptional customer service. <br>
+                  - Managed inventory, merchandise presentation, and ensured the store's smooth daily operations. <br>
+                  - Conducted employee training and performance evaluations, fostering a positive work environment.
+                </p>
+              </li>
+        </section>
+        <section class="lan">
+          <h3 class="h3 lan-title">Programming Languages</h3>
+          <ul class="lan-list has-scrollbar">
+
+            <li class="lan-item">
+              <div class="lan-icon-box">
+                <img src="assets/images/java.jpg" alt="" width="40">
+              </div>
+              <div class="lan-content-box">
+                <h4 class="h4 lan-item-title">Java</h4>
+                <p class="lan-item-text">
+                  I excel in Java development, leveraging its robust capabilities to create efficient and reliable software solutions.
+                </p>
+              </div>
+            </li>
+            <li class="lan-item">
+              <div class="lan-icon-box">
+                <img src="assets/images/js.png" alt="" width="40">
+              </div>
+              <div class="lan-content-box">
+                <h4 class="h4 lan-item-title">Java Script</h4>
+                <p class="lan-item-text">
+                  I specialize in JavaScript, utilizing its versatility to build interactive and dynamic web applications.
+                </p>
+              </div>
+            </li>
+            <li class="lan-item">
+              <div class="lan-icon-box">
+                <img src="assets/images/php.png" alt="" width="40">
+              </div>
+              <div class="lan-content-box">
+                <h4 class="h4 lan-item-title">Php</h4>
+                <p class="lan-item-text">
+                  I have expertise in PHP, harnessing its power to develop robust and scalable web applications.
+                </p>
+              </div>
+            </li>   <li class="lan-item">
+              <div class="lan-icon-box">
+                <img src="assets/images/python.png" alt="" width="40">
+              </div>
+              <div class="lan-content-box">
+                <h4 class="h4 lan-item-title">Python</h4>
+                <p class="lan-item-text">
+                  I'm skilled in Python, utilizing its simplicity and versatility to develop a wide range of applications, from web development to data analysis.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="lan">
+          <h3 class="h3 lan-title">Web Development</h3>
+          <ul class="lan-list has-scrollbar">
+
+            <li class="lan-item">
+              <div class="lan-icon-box">
+                <img src="assets/images/html.png" alt="" width="40">
+              </div>
+              <div class="lan-content-box">
+                <h4 class="h4 lan-item-title">Html</h4>
+                <p class="lan-item-text">
+                  I have extensive experience with HTML, using it as a foundation to create well-structured and visually appealing web pages.
+                </p>
+              </div>
+            </li>
+            <li class="lan-item">
+              <div class="lan-icon-box">
+                <img src="assets/images/css.png" alt="" width="40">
+              </div>
+              <div class="lan-content-box">
+                <h4 class="h4 lan-item-title">CSS</h4>
+                <p class="lan-item-text">
+                  I'm adept at CSS, applying its styling capabilities to enhance the design and presentation of web content.
+                </p>
+              </div>
+            </li>    
+          </ul>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">    
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Entry and Verification</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Team Leadership and Management</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Customer Service</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Project Coordination</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Communication Skills</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/images/Acti-Connect Website.png" alt="port" loading="lazy">
+                </figure>
+                <h3 class="project-title">Acti-Connect</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/images/about.jpg" alt="port" loading="lazy">
+                </figure>
+                <h3 class="project-title">Portfolio</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/images/Ecome.jpg" alt="commerce" loading="lazy">
+                </figure>
+                <h3 class="project-title">E-Commerce Website</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/images/coffee shop.jpg" alt="coffeeShop" loading="lazy">
+                </figure>
+                <h3 class="project-title">Coffee Shop</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/images/dctr.jpg" alt="DoctorClinic" loading="lazy">
+                </figure>
+                <h3 class="project-title">Doctor Clinic</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+    </div>
+  </main>
+
+
+  <script src="assets/js/script.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
